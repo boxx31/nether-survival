@@ -1,0 +1,43 @@
+{
+  "parent": "nether_survival:adventure/compost",
+  "criteria": {
+    "grow_mushroom": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:mushroom_stem"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:bone_meal"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Grow a large mushroom in a forest biome"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_mushroom_block"
+    },
+    "title": {
+      "text": "Shroom Wars"
+    }
+  },
+  "requirements": [
+    [
+      "grow_mushroom"
+    ]
+  ]
+}

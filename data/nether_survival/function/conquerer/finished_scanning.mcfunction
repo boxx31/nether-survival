@@ -1,0 +1,1 @@
+scoreboard players set #current scanning 0

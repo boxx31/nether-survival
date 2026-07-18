@@ -1,0 +1,60 @@
+{
+  "parent": "nether_survival:challenges/trophy",
+  "criteria": {
+    "all_quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_block"
+          },
+          {
+            "items": "minecraft:quartz_stairs"
+          },
+          {
+            "items": "minecraft:quartz_slab"
+          },
+          {
+            "items": "minecraft:chiseled_quartz_block"
+          },
+          {
+            "items": "minecraft:quartz_bricks"
+          },
+          {
+            "items": "minecraft:quartz_pillar"
+          },
+          {
+            "items": "minecraft:smooth_quartz"
+          },
+          {
+            "items": "minecraft:smooth_quartz_stairs"
+          },
+          {
+            "items": "minecraft:smooth_quartz_slab"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Have all Quartz Block variants at the same time"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:quartz_bricks"
+    },
+    "title": {
+      "text": "Quartz Mastery"
+    }
+  },
+  "requirements": [
+    [
+      "all_quartz"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

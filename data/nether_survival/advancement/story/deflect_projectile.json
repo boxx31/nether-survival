@@ -1,0 +1,38 @@
+{
+  "parent": "nether_survival:story/iron_armor",
+  "criteria": {
+    "deflect_projectile": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          },
+          "blocked": true
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Deflect a projectile with a Shield"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:shield"
+    },
+    "title": {
+      "text": "Not Today, Thank You"
+    }
+  },
+  "requirements": [
+    [
+      "deflect_projectile"
+    ]
+  ]
+}

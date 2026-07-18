@@ -1,0 +1,66 @@
+{
+  "parent": "nether_survival:challenges/all_quartz",
+  "criteria": {
+    "all_bricks": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_bricks"
+          },
+          {
+            "items": "minecraft:cracked_nether_bricks"
+          },
+          {
+            "items": "minecraft:nether_brick_stairs"
+          },
+          {
+            "items": "minecraft:nether_brick_slab"
+          },
+          {
+            "items": "minecraft:nether_brick_fence"
+          },
+          {
+            "items": "minecraft:nether_brick_wall"
+          },
+          {
+            "items": "minecraft:chiseled_nether_bricks"
+          },
+          {
+            "items": "minecraft:red_nether_bricks"
+          },
+          {
+            "items": "minecraft:red_nether_brick_slab"
+          },
+          {
+            "items": "minecraft:red_nether_brick_wall"
+          },
+          {
+            "items": "minecraft:red_nether_brick_stairs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Have all Nether Brick variants at the same time"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:red_nether_bricks"
+    },
+    "title": {
+      "text": "Brick Mastery"
+    }
+  },
+  "requirements": [
+    [
+      "all_bricks"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "nether_survival:challenges/jockey_tower",
+  "criteria": {
+    "leash_up_lava": {
+      "conditions": {
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Leash a Chicken Jockey, Strider Jockey, and Hoglin Jockey in a chain through lava"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lead"
+    },
+    "title": {
+      "text": "Jockey Caravan"
+    }
+  },
+  "requirements": [
+    [
+      "leash_up_lava"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

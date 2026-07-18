@@ -1,0 +1,47 @@
+{
+  "parent": "nether_survival:challenges/all_blackstone",
+  "criteria": {
+    "minecraft:nether_gold_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_gold_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:nether_quartz_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_quartz_ore"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain an ore block using a Silk Touch pickaxe"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_quartz_ore"
+    },
+    "title": {
+      "text": "Pocket Terrain"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:nether_gold_ore",
+      "minecraft:nether_quartz_ore"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

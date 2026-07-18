@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:story/wooden_pickaxe",
+  "criteria": {
+    "minecraft:blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:stone_tool_materials"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Mine or barter for Blackstone"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blackstone"
+    },
+    "title": {
+      "text": "Stone Age"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:blackstone"
+    ]
+  ]
+}

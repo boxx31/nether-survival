@@ -1,0 +1,47 @@
+{
+  "parent": "nether_survival:challenges/free_fall",
+  "criteria": {
+    "go_above_bedrock": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "y": {
+                    "min": 128
+                  }
+                },
+                "dimension": "minecraft:the_nether"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Glitch through the ceiling"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bedrock"
+    },
+    "title": {
+      "text": "Undiscovered Estate"
+    }
+  },
+  "requirements": [
+    [
+      "go_above_bedrock"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

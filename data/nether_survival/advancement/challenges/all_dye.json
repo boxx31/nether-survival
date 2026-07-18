@@ -1,0 +1,75 @@
+{
+  "parent": "nether_survival:challenges/kill_in_lava",
+  "criteria": {
+    "minecraft:white_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:light_gray_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:gray_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:black_dye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_dye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain all colors of dye"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:light_gray_dye"
+    },
+    "title": {
+      "text": "Grayscale"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:white_dye"
+    ],
+    [
+      "minecraft:light_gray_dye"
+    ],
+    [
+      "minecraft:gray_dye"
+    ],
+    [
+      "minecraft:black_dye"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

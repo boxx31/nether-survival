@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:challenges/sniper_duel",
+  "criteria": {
+    "splash_blaze": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:blaze"
+            }
+          }
+        ],
+        "killing_blow": {
+          "direct_entity": {
+            "type": "minecraft:splash_potion"
+          }
+        }
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "rewards": {
+    "function": "nether_survival:count_blaze_kill"
+  },
+  "requirements": [
+    [
+      "splash_blaze"
+    ]
+  ]
+}

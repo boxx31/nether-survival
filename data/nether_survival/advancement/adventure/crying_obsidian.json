@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:adventure/barter",
+  "criteria": {
+    "minecraft:crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain Crying Obsidian"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crying_obsidian"
+    },
+    "title": {
+      "text": "Who is Cutting Onions?"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:crying_obsidian"
+    ]
+  ]
+}

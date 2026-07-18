@@ -1,0 +1,16 @@
+{
+  "parent": "nether_survival:challenges/eat_everything",
+  "criteria": {
+    "a": {
+      "conditions": {
+        
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

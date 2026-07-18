@@ -1,0 +1,16 @@
+{
+  "parent": "nether_survival:challenges/teleport_biomes",
+  "criteria": {
+    "a": {
+      "conditions": {
+        
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

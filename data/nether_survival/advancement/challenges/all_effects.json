@@ -1,0 +1,42 @@
+{
+  "parent": "nether_survival:challenges/all_recipes",
+  "criteria": {
+    "all_effects": {
+      "conditions": {
+        "effects": {
+          "minecraft:absorption": {},
+          "minecraft:fire_resistance": {},
+          "minecraft:glowing": {},
+          "minecraft:hunger": {},
+          "minecraft:night_vision": {},
+          "minecraft:regeneration": {},
+          "minecraft:resistance": {},
+          "minecraft:strength": {},
+          "minecraft:wither": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Have every effect applied at the same time (9 total)"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bucket"
+    },
+    "title": {
+      "text": "Not This One Again..."
+    }
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

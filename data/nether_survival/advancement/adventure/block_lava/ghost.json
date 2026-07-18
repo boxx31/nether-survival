@@ -1,0 +1,72 @@
+{
+  "parent": "nether_survival:adventure/root",
+  "criteria": {
+    "placed_lava_above": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": 1,
+            "predicate": {
+              "fluid": {
+                "fluids": [
+                  "minecraft:lava",
+                  "minecraft:flowing_lava"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "x": {
+                  "max": 0.3
+                },
+                "z": {
+                  "max": 0.3
+                },
+                "y": {
+                  "max": 4
+                }
+              }
+            }
+          }
+        ],
+        "player": [
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "fire_resistance": {}
+                }
+              }
+            }
+          },
+          {
+            "condition": "location_check",
+            "offsetY": 1,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:air"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "rewards": {
+    "function": "nether_survival:check_lava_block"
+  },
+  "requirements": [
+    [
+      "placed_lava_above"
+    ]
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "nether_survival:challenges/trophy",
+  "criteria": {
+    "minecraft:netherite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_hoe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Use a Netherite Ingot to upgrade a Hoe, and then reevaluate your life choices"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:netherite_hoe"
+    },
+    "title": {
+      "text": "Serious Dedication"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:netherite_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

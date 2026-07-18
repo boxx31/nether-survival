@@ -1,0 +1,43 @@
+{
+  "parent": "nether_survival:story/gather_food",
+  "criteria": {
+    "cook_meat": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#minecraft:campfires"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "#minecraft:meat"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Cook raw meat using a Campfire"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:soul_campfire"
+    },
+    "title": {
+      "text": "Burning Lesson"
+    }
+  },
+  "requirements": [
+    [
+      "cook_meat"
+    ]
+  ]
+}

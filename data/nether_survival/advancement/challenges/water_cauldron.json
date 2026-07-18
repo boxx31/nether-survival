@@ -1,0 +1,47 @@
+{
+  "parent": "nether_survival:challenges/trophy",
+  "criteria": {
+    "in_water_cauldron": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_on_fire": true
+              },
+              "location": {
+                "block": {
+                  "blocks": "minecraft:water_cauldron"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Save yourself from fire using a Water Cauldron"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:cauldron"
+    },
+    "title": {
+      "text": "Safety Protocol"
+    }
+  },
+  "requirements": [
+    [
+      "in_water_cauldron"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

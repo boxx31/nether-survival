@@ -1,0 +1,93 @@
+{
+  "parent": "nether_survival:challenges/all_bricks",
+  "criteria": {
+    "all_blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:basalt"
+          },
+          {
+            "items": "minecraft:polished_basalt"
+          },
+          {
+            "items": "minecraft:smooth_basalt"
+          },
+          {
+            "items": "minecraft:blackstone"
+          },
+          {
+            "items": "minecraft:blackstone_slab"
+          },
+          {
+            "items": "minecraft:blackstone_stairs"
+          },
+          {
+            "items": "minecraft:blackstone_wall"
+          },
+          {
+            "items": "minecraft:gilded_blackstone"
+          },
+          {
+            "items": "minecraft:polished_blackstone"
+          },
+          {
+            "items": "minecraft:polished_blackstone_slab"
+          },
+          {
+            "items": "minecraft:polished_blackstone_stairs"
+          },
+          {
+            "items": "minecraft:polished_blackstone_wall"
+          },
+          {
+            "items": "minecraft:chiseled_polished_blackstone"
+          },
+          {
+            "items": "minecraft:polished_blackstone_pressure_plate"
+          },
+          {
+            "items": "minecraft:polished_blackstone_button"
+          },
+          {
+            "items": "minecraft:polished_blackstone_bricks"
+          },
+          {
+            "items": "minecraft:polished_blackstone_brick_slab"
+          },
+          {
+            "items": "minecraft:polished_blackstone_brick_stairs"
+          },
+          {
+            "items": "minecraft:polished_blackstone_brick_wall"
+          },
+          {
+            "items": "minecraft:cracked_polished_blackstone_bricks"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Have all Blackstone and Basalt variants at the same time"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gilded_blackstone"
+    },
+    "title": {
+      "text": "Blackstone Mastery"
+    }
+  },
+  "requirements": [
+    [
+      "all_blackstone"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "parent": "nether_survival:challenges/water_cauldron",
+  "criteria": {
+    "kill_in_lava": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "offsetX": 0,
+            "offsetY": 1.75,
+            "offsetZ": 0,
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:lava"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:player_killed_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a mob while fully submerged in a lava pool"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": "minecraft:fire_resistance"
+      }
+    },
+    "title": {
+      "text": "Lava Monster"
+    }
+  },
+  "requirements": [
+    [
+      "kill_in_lava"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

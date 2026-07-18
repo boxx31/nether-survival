@@ -1,0 +1,43 @@
+{
+  "parent": "nether_survival:story/stem",
+  "criteria": {
+    "minecraft:mushroom_stew": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mushroom_stew"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:cooked_porkchop": {
+      "conditions": {
+          "items": [
+            {
+              "items": "minecraft:cooked_porkchop"
+            }
+          ]
+        },
+        "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Gather a fulfilling source of food"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:mushroom_stew"
+    },
+    "title": {
+      "text": "Nutritious Snack"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:mushroom_stew",
+      "minecraft:cooked_porkchop"
+    ]
+  ]
+}

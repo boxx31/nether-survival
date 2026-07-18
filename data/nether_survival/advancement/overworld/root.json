@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "overworld": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:block/stone",
+    "description": {
+      "text": "A strangely familiar world"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:grass_block"
+    },
+    "show_toast": false,
+    "title": {
+      "text": "Overworld"
+    }
+  },
+  "requirements": [
+    [
+      "overworld"
+    ]
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "nether_survival:challenges/all_blocks",
+  "criteria": {
+    "a": {
+      "conditions": {
+        
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "a"
+    ]
+  ]
+}

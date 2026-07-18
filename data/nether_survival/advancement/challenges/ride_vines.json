@@ -1,0 +1,56 @@
+{
+  "parent": "nether_survival:challenges/trophy",
+  "criteria": {
+    "ride_strider_on_vines": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:strider"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "offsetY": -2,
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:twisting_vines_plant",
+                  "minecraft:twisting_vines",
+                  "minecraft:weeping_vines_plant",
+                  "minecraft:weeping_vines"
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Ride a Strider on vines"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warped_fungus_on_a_stick"
+    },
+    "title": {
+      "text": "Jungle Gym"
+    }
+  },
+  "requirements": [
+    [
+      "ride_strider_on_vines"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

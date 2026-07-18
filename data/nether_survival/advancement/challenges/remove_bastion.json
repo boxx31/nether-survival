@@ -1,0 +1,31 @@
+{
+  "parent": "nether_survival:challenges/netherite_hoe",
+  "criteria": {
+    "remove_bastion": {
+      "conditions": {
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Remove every Chest and Gold Block in a Bastion Remnant"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_block"
+    },
+    "title": {
+      "text": "The Conquerer"
+    }
+  },
+  "requirements": [
+    [
+      "remove_bastion"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

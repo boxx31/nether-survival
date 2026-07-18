@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:challenges/ride_ghast",
+  "criteria": {
+    "teleport_biomes": {
+      "conditions": {
+        
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Instantly travel from a Warped Forest to a Soul Sand Valley"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_pearl"
+    },
+    "title": {
+      "text": "Warp Drive"
+    }
+  },
+  "requirements": [
+    [
+      "teleport_biomes"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

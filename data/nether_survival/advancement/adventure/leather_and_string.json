@@ -1,0 +1,35 @@
+{
+  "parent": "nether_survival:adventure/root",
+  "criteria": {
+    "leather_and_string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          },
+          {
+            "items": "minecraft:string"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain Leather and String"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bundle"
+    },
+    "title": {
+      "text": "Tailor's Toolkit"
+    }
+  },
+  "requirements": [
+    [
+      "leather_and_string"
+    ]
+  ]
+}

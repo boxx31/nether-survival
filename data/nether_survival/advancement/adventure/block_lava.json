@@ -1,0 +1,28 @@
+{
+  "parent": "nether_survival:adventure/root",
+  "criteria": {
+    "block_lava": {
+      "conditions": {
+        
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Block yourself from falling lava"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "text": "Quick Reflexes"
+    }
+  },
+  "requirements": [
+    [
+      "block_lava"
+    ]
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "parent": "nether_survival:challenges/jockey_caravan",
+  "criteria": {
+    "minecraft:chicken": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:cooked_chicken": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_chicken"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:cooked_porkchop": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:cooked_porkchop"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:enchanted_golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:enchanted_golden_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:golden_apple": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_apple"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:golden_carrot": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:golden_carrot"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:mushroom_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:mushroom_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:porkchop": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:porkchop"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:rotten_flesh": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:rotten_flesh"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "minecraft:suspicious_stew": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:suspicious_stew"
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Eat everything that is edible, even if it's not good for you"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_apple"
+    },
+    "title": {
+      "text": "Nether Connoisseur"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:mushroom_stew"
+    ],
+    [
+      "minecraft:porkchop"
+    ],
+    [
+      "minecraft:cooked_porkchop"
+    ],
+    [
+      "minecraft:golden_apple"
+    ],
+    [
+      "minecraft:enchanted_golden_apple"
+    ],
+    [
+      "minecraft:chicken"
+    ],
+    [
+      "minecraft:cooked_chicken"
+    ],
+    [
+      "minecraft:rotten_flesh"
+    ],
+    [
+      "minecraft:golden_carrot"
+    ],
+    [
+      "minecraft:suspicious_stew"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

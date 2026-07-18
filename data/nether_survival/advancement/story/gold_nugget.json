@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:story/wooden_pickaxe",
+  "criteria": {
+    "minecraft:gold_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Look for gold in the depths"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_gold_ore"
+    },
+    "title": {
+      "text": "Golden Flecks"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:gold_nugget"
+    ]
+  ]
+}

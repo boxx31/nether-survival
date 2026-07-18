@@ -1,0 +1,31 @@
+{
+  "parent": "nether_survival:challenges/sniper_duel",
+  "criteria": {
+    "splash_blazes": {
+      "conditions": {
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill three Blazes using a single water bottle splash"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:splash_potion"
+    },
+    "title": {
+      "text": "Hydroplosive"
+    }
+  },
+  "requirements": [
+    [
+      "splash_blazes"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

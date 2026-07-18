@@ -1,0 +1,390 @@
+{
+  "parent": "nether_survival:challenges/all_dye",
+  "criteria": {
+    "minecraft:crimson_hyphae": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:crimson_hyphae"
+      }
+    },
+    "minecraft:crimson_hanging_sign": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:crimson_hanging_sign"
+      }
+    },
+    "minecraft:crimson_slab": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:crimson_slab"
+      }
+    },
+    "minecraft:warped_hyphae": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:warped_hyphae"
+      }
+    },
+    "minecraft:warped_hanging_sign": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:warped_hanging_sign"
+      }
+    },
+    "minecraft:warped_slab": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:warped_slab"
+      }
+    },
+    "minecraft:chiseled_nether_bricks": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chiseled_nether_bricks"
+      }
+    },
+    "minecraft:red_nether_brick_slab": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:red_nether_brick_slab"
+      }
+    },
+    "minecraft:polished_basalt": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:polished_basalt"
+      }
+    },
+    "minecraft:polished_blackstone_button": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:polished_blackstone_button"
+      }
+    },
+    "minecraft:chiseled_polished_blackstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chiseled_polished_blackstone"
+      }
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:polished_blackstone_brick_slab"
+      }
+    },
+    "minecraft:chiseled_quartz_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chiseled_quartz_block"
+      }
+    },
+    "minecraft:smooth_quartz_slab": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:smooth_quartz_slab"
+      }
+    },
+    "minecraft:coal_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:coal_block"
+      }
+    },
+    "minecraft:gold_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:gold_block"
+      }
+    },
+    "minecraft:diamond_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:diamond_block"
+      }
+    },
+    "minecraft:netherite_block": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:netherite_block"
+      }
+    },
+    "minecraft:glowstone": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:glowstone"
+      }
+    },
+    "minecraft:fletching_table": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:fletching_table"
+      }
+    },
+    "minecraft:anvil": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:anvil"
+      }
+    },
+    "minecraft:leather_chestplate": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:leather_chestplate"
+      }
+    },
+    "minecraft:ender_chest": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:ender_chest"
+      }
+    },
+    "minecraft:respawn_anchor": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:respawn_anchor"
+      }
+    },
+    "minecraft:chest_minecart": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chest_minecart"
+      }
+    },
+    "minecraft:soul_lantern": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:soul_lantern"
+      }
+    },
+    "minecraft:warped_fungus_on_a_stick": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:warped_fungus_on_a_stick"
+      }
+    },
+    "minecraft:trapped_chest": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:trapped_chest"
+      }
+    },
+    "minecraft:netherite_ingot": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:netherite_ingot"
+      }
+    },
+    "minecraft:composter": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:composter"
+      }
+    },
+    "minecraft:mushroom_stew": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:mushroom_stew"
+      }
+    },
+    "minecraft:light_gray_carpet": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:light_gray_carpet"
+      }
+    },
+    "minecraft:gray_banner": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:gray_banner"
+      }
+    },
+    "minecraft:black_bed": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:black_bed"
+      }
+    },
+    "minecraft:netherite_upgrade_smithing_template": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:netherite_upgrade_smithing_template"
+      }
+    },
+    "minecraft:snout_armor_trim_smithing_template": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:snout_armor_trim_smithing_template"
+      }
+    },
+    "minecraft:rib_armor_trim_smithing_template": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:rib_armor_trim_smithing_template"
+      }
+    },
+    "minecraft:bone_meal_1": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:bone_meal"
+      }
+    },
+    "minecraft:bone_meal_2": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:bone_meal_from_bone_block"
+      }
+    },
+    "minecraft:chest": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:chest"
+      }
+    },
+    "minecraft:smoker": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "minecraft:smoker"
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Discover all crafting recipes"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:knowledge_book"
+    },
+    "title": {
+      "text": "Recipe Head"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:crimson_hyphae"
+    ],
+    [
+      "minecraft:crimson_hanging_sign"
+    ],
+    [
+      "minecraft:crimson_slab"
+    ],
+    [
+      "minecraft:warped_hyphae"
+    ],
+    [
+      "minecraft:warped_hanging_sign"
+    ],
+    [
+      "minecraft:warped_slab"
+    ],
+    [
+      "minecraft:chiseled_nether_bricks"
+    ],
+    [
+      "minecraft:red_nether_brick_slab"
+    ],
+    [
+      "minecraft:polished_basalt"
+    ],
+    [
+      "minecraft:polished_blackstone_button"
+    ],
+    [
+      "minecraft:chiseled_polished_blackstone"
+    ],
+    [
+      "minecraft:cracked_polished_blackstone_bricks"
+    ],
+    [
+      "minecraft:chiseled_quartz_block"
+    ],
+    [
+      "minecraft:smooth_quartz_slab"
+    ],
+    [
+      "minecraft:coal_block"
+    ],
+    [
+      "minecraft:gold_block"
+    ],
+    [
+      "minecraft:diamond_block"
+    ],
+    [
+      "minecraft:netherite_block"
+    ],
+    [
+      "minecraft:glowstone"
+    ],
+    [
+      "minecraft:fletching_table"
+    ],
+    [
+      "minecraft:anvil"
+    ],
+    [
+      "minecraft:leather_chestplate"
+    ],
+    [
+      "minecraft:ender_chest"
+    ],
+    [
+      "minecraft:respawn_anchor"
+    ],
+    [
+      "minecraft:chest_minecart"
+    ],
+    [
+      "minecraft:soul_lantern"
+    ],
+    [
+      "minecraft:warped_fungus_on_a_stick"
+    ],
+    [
+      "minecraft:trapped_chest"
+    ],
+    [
+      "minecraft:netherite_ingot"
+    ],
+    [
+      "minecraft:composter"
+    ],
+    [
+      "minecraft:mushroom_stew"
+    ],
+    [
+      "minecraft:light_gray_carpet"
+    ],
+    [
+      "minecraft:gray_banner"
+    ],
+    [
+      "minecraft:black_bed"
+    ],
+    [
+      "minecraft:netherite_upgrade_smithing_template"
+    ],
+    [
+      "minecraft:snout_armor_trim_smithing_template"
+    ],
+    [
+      "minecraft:rib_armor_trim_smithing_template"
+    ],
+    [
+      "minecraft:bone_meal_1",
+      "minecraft:bone_meal_2"
+    ],
+    [
+      "minecraft:chest"
+    ],
+    [
+      "minecraft:smoker"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "parent": "nether_survival:challenges/clip_bedrock",
+  "criteria": {
+    "ride_minecart_on_ghast": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "vehicle": {
+                "type": "minecraft:minecart"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Ride a Minecart onto a Ghast"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:minecart"
+    },
+    "title": {
+      "text": "Thrill Ride"
+    }
+  },
+  "requirements": [
+    [
+      "ride_minecart_on_ghast"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

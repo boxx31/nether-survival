@@ -1,0 +1,296 @@
+{
+  "parent": "nether_survival:adventure/soul_speed",
+  "criteria": {
+    "minecraft:gravel": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gravel"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:blackstone": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:spectral_arrow": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:spectral_arrow"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:nether_brick": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:soul_sand": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_sand"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:leather": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:crying_obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:fire_charge": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fire_charge"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:quartz": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:string": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:string"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:ender_pearl": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_pearl"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:iron_nugget": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_nugget"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:dried_ghast": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dried_ghast"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "water_bottle": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": "minecraft:water"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "fire_resistance_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:potion",
+            "components": {
+                "minecraft:potion_contents": "minecraft:fire_resistance"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "splash_fire_resistance_potion": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:splash_potion",
+            "components": {
+              "minecraft:potion_contents": "minecraft:fire_resistance"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "soul_speed_iron_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_boots",
+            "predicates": {
+              "minecraft:enchantments": [
+                {
+                  "enchantments": "minecraft:soul_speed",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "soul_speed_enchanted_book": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:enchanted_book",
+            "predicates": {
+              "minecraft:stored_enchantments": [
+                {
+                  "enchantments": "minecraft:soul_speed",
+                  "levels": {
+                    "min": 1
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Barter for everything!"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:enchanted_book"
+    },
+    "title": {
+      "text": "The Whole Deal"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:gravel"
+    ],
+    [
+      "minecraft:blackstone"
+    ],
+    [
+      "minecraft:spectral_arrow"
+    ],
+    [
+      "minecraft:nether_brick"
+    ],
+    [
+      "minecraft:soul_sand"
+    ],
+    [
+      "minecraft:leather"
+    ],
+    [
+      "minecraft:crying_obsidian"
+    ],
+    [
+      "minecraft:fire_charge"
+    ],
+    [
+      "minecraft:obsidian"
+    ],
+    [
+      "minecraft:quartz"
+    ],
+    [
+      "minecraft:string"
+    ],
+    [
+      "minecraft:ender_pearl"
+    ],
+    [
+      "minecraft:iron_nugget"
+    ],
+    [
+      "minecraft:dried_ghast"
+    ],
+    [
+      "water_bottle"
+    ],
+    [
+      "fire_resistance_potion"
+    ],
+    [
+      "splash_fire_resistance_potion"
+    ],
+    [
+      "soul_speed_iron_boots"
+    ],
+    [
+      "soul_speed_enchanted_book"
+    ]
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "parent": "nether_survival:challenges/compost_everything",
+  "criteria": {
+    "white_banner": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:piglin",
+                  "color": "white"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "light_gray_banner": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:piglin",
+                  "color": "light_gray"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "gray_banner": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:piglin",
+                  "color": "gray"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "black_banner": {
+      "conditions": {
+        "items": [
+          {
+            "components": {
+              "minecraft:banner_patterns": [
+                {
+                  "pattern": "minecraft:piglin",
+                  "color": "black"
+                }
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Create a Banner with the Snout pattern"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:piglin_banner_pattern"
+    },
+    "title": {
+      "text": "Snorting Zone"
+    }
+  },
+  "requirements": [
+    [
+      "white_banner",
+      "light_gray_banner",
+      "gray_banner",
+      "black_banner"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

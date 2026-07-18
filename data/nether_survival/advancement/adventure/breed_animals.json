@@ -1,0 +1,25 @@
+{
+  "parent": "nether_survival:adventure/compost",
+  "criteria": {
+    "breed_animal": {
+      "trigger": "minecraft:bred_animals"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Breed two animals together"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crimson_fungus"
+    },
+    "title": {
+      "text": "The Parrots and the Bats"
+    }
+  },
+  "requirements": [
+    [
+      "breed_animal"
+    ]
+  ]
+}

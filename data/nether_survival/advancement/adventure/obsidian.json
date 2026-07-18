@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:adventure/barter",
+  "criteria": {
+    "minecraft:obsidian": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:obsidian"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain a block of Obsidian"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:obsidian"
+    },
+    "title": {
+      "text": "Ice Bucket Challenge"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:obsidian"
+    ]
+  ]
+}

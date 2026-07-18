@@ -1,0 +1,65 @@
+{
+  "parent": "nether_survival:structures/diamond",
+  "criteria": {
+    "boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Diamond armor saves lives"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond_chestplate"
+    },
+    "title": {
+      "text": "Cover Me with Diamonds"
+    }
+  },
+  "requirements": [
+    [
+      "helmet",
+      "chestplate",
+      "leggings",
+      "boots"
+    ]
+  ]
+}

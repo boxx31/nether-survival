@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:structures/root",
+  "criteria": {
+    "minecraft:diamond": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Acquire diamonds"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:diamond"
+    },
+    "title": {
+      "text": "Diamonds!"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:diamond"
+    ]
+  ]
+}

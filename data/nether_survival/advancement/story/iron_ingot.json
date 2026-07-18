@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:story/golden_armor",
+  "criteria": {
+    "minecraft:iron_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_ingot"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Barter with piglins for iron"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_ingot"
+    },
+    "title": {
+      "text": "Acquire Hardware"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:iron_ingot"
+    ]
+  ]
+}

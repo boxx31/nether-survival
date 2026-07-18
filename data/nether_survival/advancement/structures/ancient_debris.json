@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:structures/loot_bastion",
+  "criteria": {
+    "minecraft:ancient_debris": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ancient_debris"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain Ancient Debris"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ancient_debris"
+    },
+    "title": {
+      "text": "Hidden in the Depths"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:ancient_debris"
+    ]
+  ]
+}

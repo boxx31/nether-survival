@@ -1,0 +1,36 @@
+{
+  "parent": "nether_survival:structures/wither_skull",
+  "criteria": {
+    "summon_wither": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Summon the Wither"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Withering Heights"
+    }
+  },
+  "requirements": [
+    [
+      "summon_wither"
+    ]
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "parent": "nether_survival:structures/diamond",
+  "criteria": {
+    "minecraft:music_disc_pigstep": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:music_disc_pigstep"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    },
+    "minecraft:music_disc_tears": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:jukebox"
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": "minecraft:music_disc_tears"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Play a music disc with a Jukebox"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:music_disc_pigstep"
+    },
+    "title": {
+      "text": "Musical"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:music_disc_pigstep",
+      "minecraft:music_disc_tears"
+    ]
+  ]
+}

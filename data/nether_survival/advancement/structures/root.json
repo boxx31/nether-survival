@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:pickaxes"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "background": "minecraft:block/quartz_bricks",
+    "description": {
+      "text": "Beware dangerous guards"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:polished_basalt"
+    },
+    "title": {
+      "text": "Structures"
+    }
+  },
+  "requirements": [
+    [
+      "pickaxe"
+    ]
+  ]
+}

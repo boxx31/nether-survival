@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:structures/fortress",
+  "criteria": {
+    "minecraft:wither_skeleton_skull": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain a Wither Skeleton's skull"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_skeleton_skull"
+    },
+    "title": {
+      "text": "Spooky Scary Skeleton"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:wither_skeleton_skull"
+    ]
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "parent": "nether_survival:story/distract_piglin",
+  "criteria": {
+    "shoot_crossbow": {
+      "conditions": {
+        "item": {
+          "items": "minecraft:crossbow"
+        }
+      },
+      "trigger": "minecraft:shot_crossbow"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Shoot a Crossbow"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crossbow"
+    },
+    "title": {
+      "text": "Ol' Betsy"
+    }
+  },
+  "requirements": [
+    [
+      "shoot_crossbow"
+    ]
+  ]
+}

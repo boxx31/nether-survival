@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:story/iron_ingot",
+  "criteria": {
+    "minecraft:iron_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_pickaxe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Upgrade your Pickaxe"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "text": "Isn't It Iron Pick"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:iron_pickaxe"
+    ]
+  ]
+}

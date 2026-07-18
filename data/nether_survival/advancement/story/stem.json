@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:story/root",
+  "criteria": {
+    "stem": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#minecraft:logs"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Collect wood from a huge fungus"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:crimson_stem"
+    },
+    "title": {
+      "text": "Getting Wood"
+    }
+  },
+  "requirements": [
+    [
+      "stem"
+    ]
+  ]
+}

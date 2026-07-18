@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "free": {
+      "conditions": {
+      },
+      "trigger": "minecraft:tick"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "show_toast": false,
+    "background": "minecraft:gui/advancements/backgrounds/nether",
+    "description": {
+      "text": "All the essentials"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:warped_nylium"
+    },
+    "title": {
+      "translate": "Nether Survival"
+    }
+  },
+  "requirements": [
+    [
+      "free"
+    ]
+  ],
+  "rewards": {
+    "function": "nether_survival:first_join"
+  }
+}

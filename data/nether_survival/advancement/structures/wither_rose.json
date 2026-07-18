@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:structures/summon_wither",
+  "criteria": {
+    "minecraft:wither_rose": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_rose"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Scavenge the remains of the Wither's victim"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:wither_rose"
+    },
+    "title": {
+      "text": "Deathly Beauty"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:wither_rose"
+    ]
+  ]
+}

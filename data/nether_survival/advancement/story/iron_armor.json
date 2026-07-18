@@ -1,0 +1,65 @@
+{
+  "parent": "nether_survival:story/iron_ingot",
+  "criteria": {
+    "boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_boots"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chestplate"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_helmet"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_leggings"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Protect yourself with a piece of iron armor"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "text": "Suit Up"
+    }
+  },
+  "requirements": [
+    [
+      "helmet",
+      "chestplate",
+      "leggings",
+      "boots"
+    ]
+  ]
+}

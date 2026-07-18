@@ -1,0 +1,25 @@
+{
+  "parent": "nether_survival:structures/blaze_rod",
+  "criteria": {
+    "brew_potion": {
+      "trigger": "minecraft:brewed_potion"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Brew a Potion"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:potion"
+    },
+    "title": {
+      "text": "Local Brewery"
+    }
+  },
+  "requirements": [
+    [
+      "brew_potion"
+    ]
+  ]
+}

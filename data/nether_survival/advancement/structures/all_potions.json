@@ -1,0 +1,37 @@
+{
+  "parent": "nether_survival:structures/brew_potion",
+  "criteria": {
+    "all_potions": {
+      "conditions": {
+        "effects": {
+          "minecraft:fire_resistance": {},
+          "minecraft:night_vision": {},
+          "minecraft:regeneration": {},
+          "minecraft:strength": {}
+        }
+      },
+      "trigger": "minecraft:effects_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Have four potion effects applied at the same time"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:milk_bucket"
+    },
+    "title": {
+      "text": "A Fiery Cocktail"
+    }
+  },
+  "requirements": [
+    [
+      "all_potions"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

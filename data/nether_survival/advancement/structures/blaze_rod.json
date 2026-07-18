@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:structures/fortress",
+  "criteria": {
+    "minecraft:blaze_rod": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blaze_rod"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Relieve a Blaze of its rod"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:blaze_rod"
+    },
+    "title": {
+      "text": "Into Fire"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:blaze_rod"
+    ]
+  ]
+}

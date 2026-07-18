@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:story/iron_ingot",
+  "criteria": {
+    "minecraft:lava_bucket": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lava_bucket"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Fill a Bucket with lava"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:lava_bucket"
+    },
+    "title": {
+      "text": "Hot Stuff"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:lava_bucket"
+    ]
+  ]
+}

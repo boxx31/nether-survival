@@ -1,0 +1,38 @@
+{
+  "parent": "nether_survival:structures/root",
+  "criteria": {
+    "bastion_remnant": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structures": "minecraft:bastion_remnant"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Enter a Bastion Remnant"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:polished_blackstone_bricks"
+    },
+    "title": {
+      "text": "Those Were the Days"
+    }
+  },
+  "requirements": [
+    [
+      "bastion_remnant"
+    ]
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "parent": "nether_survival:structures/blaze_rod",
+  "criteria": {
+    "minecraft:ender_chest": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_chest"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Craft a chest using an Eye of Ender"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:ender_chest"
+    },
+    "title": {
+      "text": "Secure Vault"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:ender_chest"
+    ]
+  ]
+}

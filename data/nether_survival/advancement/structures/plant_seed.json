@@ -1,0 +1,33 @@
+{
+  "parent": "nether_survival:structures/fortress",
+  "criteria": {
+    "nether_wart": {
+      "conditions": {
+        "location": [
+          {
+            "block": "minecraft:nether_wart",
+            "condition": "minecraft:block_state_property"
+          }
+        ]
+      },
+      "trigger": "minecraft:placed_block"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Plant a seed and watch it grow"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_wart"
+    },
+    "title": {
+      "text": "A Seedy Place"
+    }
+  },
+  "requirements": [
+    [
+      "nether_wart"
+    ]
+  ]
+}

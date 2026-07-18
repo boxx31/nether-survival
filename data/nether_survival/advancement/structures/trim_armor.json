@@ -1,0 +1,35 @@
+{
+  "parent": "nether_survival:structures/root",
+  "criteria": {
+    "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim": {
+      "conditions": {
+        "recipe_id": "minecraft:rib_armor_trim_smithing_template_smithing_trim"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim": {
+      "conditions": {
+        "recipe_id": "minecraft:snout_armor_trim_smithing_template_smithing_trim"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Craft a trimmed armor at a Smithing Table"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:rib_armor_trim_smithing_template"
+    },
+    "title": {
+      "text": "Crafting a New Look"
+    }
+  },
+  "requirements": [
+    [
+      "armor_trimmed_minecraft:rib_armor_trim_smithing_template_smithing_trim",
+      "armor_trimmed_minecraft:snout_armor_trim_smithing_template_smithing_trim"
+    ]
+  ]
+}

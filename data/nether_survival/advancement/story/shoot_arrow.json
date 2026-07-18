@@ -1,0 +1,40 @@
+{
+  "parent": "nether_survival:story/melee_weapon",
+  "criteria": {
+    "shoot_arrow": {
+      "conditions": {
+        "damage": {
+          "type": {
+            "direct_entity": {
+              "type": "#minecraft:arrows"
+            },
+            "tags": [
+              {
+                "expected": true,
+                "id": "minecraft:is_projectile"
+              }
+            ]
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "Shoot something with an Arrow"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bow"
+    },
+    "title": {
+      "text": "Take Aim"
+    }
+  },
+  "requirements": [
+    [
+      "shoot_arrow"
+    ]
+  ]
+}

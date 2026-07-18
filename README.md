@@ -23,5 +23,5 @@ Enable cheats and use `/tag @s remove nether_restricted` to access the Overworld
 ### Versions
 1.21.6+, up to 26.2
 ### Links
-[https://modrinth.com/datapack/nether-challenges](Modrinth)
-[https://github.com/boxx31/nether-survival](GitHub Source Code)
+[Modrinth](https://modrinth.com/datapack/nether-challenges)
+[GitHub Source Code](https://github.com/boxx31/nether-survival)

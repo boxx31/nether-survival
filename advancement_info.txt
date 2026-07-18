@@ -1,10 +1,4 @@
-Note: 
-Although copper items are possible to obtain on 1.21.9+ Normal and Hard difficulty, 
-due to its difficulty restriction and extreme scarcity, it is not required for the trophy.
-
-Why is it so hard?
-Getting all copper blocks requires the player to kill about 80,000 skeletons under ideal conditions. 
-Farms are very limited by the block palette, and skeleton spawn rates in general are abysmal as well.
+A list of items, mobs, or recipes required for specific advancements.
 
 The Whole Deal
 - Blackstone
@@ -69,7 +63,7 @@ Nether Conoisseur
 - Enchanted Golden Apple
 
 Recipe Head
-(Unlock crafting recipes for the following, (*) indicates special item required)
+(Unlock the following recipes - most require having a particular ingredient)
 - Crimson Hyphae
 - Crimson Hanging Sign
 - Crimson Slab
@@ -94,22 +88,22 @@ Recipe Head
 - Respawn Anchor
 - Chest
 - Composter
-- Trapped Chest (*)
+- Trapped Chest
 - Smoker
 - Leather Chestplate
 - Netherite Ingot
 - Bone Meal
 - Mushroom Stew
 - Warped Fungus on a Stick
-- Anvil (*)
-- Chest Minecart (*)
-- Soul Lantern (*)
-- Light Gray Carpet (*)
-- Gray Banner (*)
-- Black Bed (*)
-- Netherite Upgrade Smithing Template (*)
-- Rib Armor Trim Smithing Template (*)
-- Snout Armor Trim Smithing Template (*)
+- Anvil
+- Chest Minecart
+- Soul Lantern
+- Light Gray Carpet
+- Gray Banner
+- Black Bed
+- Netherite Upgrade Smithing Template
+- Rib Armor Trim Smithing Template
+- Snout Armor Trim Smithing Template
 
 Not This One Again...
 - Night Vision
@@ -168,6 +162,15 @@ Blackstone Mastery
 - Cracked Polished Blackstone Bricks
 
 Final Formula
+
+Note: 
+Although copper items are possible to obtain on 1.21.9+ Normal and Hard difficulty, 
+due to its difficulty restriction and extreme scarcity, it is not required for the trophy.
+
+Why is it so hard?
+Getting all copper blocks requires the player to kill about 80,000 skeletons under ideal conditions. 
+Farms are very limited by the block palette, and skeleton spawn rates in general are abysmal as well.
+
 - Crimson/Warped Blocks (30) [32]
     - Crimson Stem
     - Crimson Hyphae

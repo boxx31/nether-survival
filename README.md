@@ -15,13 +15,13 @@ To keep the challenge as vanilla as possible, this pack **does not make gameplay
 - Features vanilla gameplay quirks and finding rare loot
 - Multiplayer compatible
 ### Specifics
-Recommended: Advancements Reloaded
+Recommended mod for tracking progress: [Advancements Reloaded](https://modrinth.com/mod/advancements-reloaded)
 
-A list of blocks/items/mobs required is found in advancement_info.txt
+Required blocks/items/mobs for specific advancements is found in advancement_info.txt
 
 Enable cheats and use `/tag @s remove nether_restricted` to access the Overworld.
 ### Versions
 1.21.6+, up to 26.2
 ### Links
-[Modrinth](https://modrinth.com/datapack/nether-challenges)
-[GitHub Source Code](https://github.com/boxx31/nether-survival)
+- [Modrinth](https://modrinth.com/datapack/nether-challenges)
+- [GitHub Source Code](https://github.com/boxx31/nether-survival)

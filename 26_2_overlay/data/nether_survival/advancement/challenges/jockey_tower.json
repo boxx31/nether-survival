@@ -1,0 +1,54 @@
+{
+  "parent": "nether_survival:challenges/snout_banner",
+  "criteria": {
+    "hit_by_jockey": {
+      "conditions": {
+        "damage": {
+          "source_entity": {
+            "minecraft:entity_type": "minecraft:hoglin",
+            "passenger": {
+              "minecraft:entity_type": "minecraft:piglin",
+              "flags": {
+                "is_baby": true
+              },
+              "passenger": {
+                "minecraft:entity_type": "minecraft:piglin",
+                "flags": {
+                  "is_baby": true
+                },
+                "passenger": {
+                  "minecraft:entity_type": "minecraft:piglin",
+                  "flags": {
+                    "is_baby": true
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:entity_hurt_player"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Get chased a baby Hoglin with three riders"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:leather"
+    },
+    "title": {
+      "text": "Jockey Tower"
+    }
+  },
+  "requirements": [
+    [
+      "hit_by_jockey"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

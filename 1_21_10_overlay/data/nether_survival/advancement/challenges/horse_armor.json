@@ -1,0 +1,88 @@
+{
+  "parent": "nether_survival:challenges/remove_bastion",
+  "criteria": {
+    "minecraft:leather_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:leather_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:golden_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:golden_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:iron_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:diamond_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "minecraft:copper_horse_armor": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:copper_horse_armor"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain all Horse Armor"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:copper_horse_armor"
+    },
+    "title": {
+      "text": "Where are the Horses?"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:leather_horse_armor"
+    ],
+    [
+      "minecraft:golden_horse_armor"
+    ],
+    [
+      "minecraft:iron_horse_armor"
+    ],
+    [
+      "minecraft:diamond_horse_armor"
+    ],
+    [
+      "minecraft:copper_horse_armor"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

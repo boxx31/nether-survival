@@ -1,0 +1,2168 @@
+{
+  "parent": "nether_survival:challenges/silk_touch",
+  "criteria": {
+    "minecraft:crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_stem"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_hyphae"
+          }
+        ]
+      }
+    },
+    "minecraft:stripped_crimson_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_crimson_stem"
+          }
+        ]
+      }
+    },
+    "minecraft:stripped_crimson_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_crimson_hyphae"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_planks"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_fence"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_fence_gate"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_door"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_trapdoor"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_pressure_plate"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_button"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_sign"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_hanging_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_hanging_sign"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_shelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_shelf"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_stem"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_hyphae"
+          }
+        ]
+      }
+    },
+    "minecraft:stripped_warped_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_warped_stem"
+          }
+        ]
+      }
+    },
+    "minecraft:stripped_warped_hyphae": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:stripped_warped_hyphae"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_planks"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_fence"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_fence_gate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_fence_gate"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_door"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_trapdoor"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_pressure_plate"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_button"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_sign"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_hanging_sign": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_hanging_sign"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_shelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_shelf"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_bricks"
+          }
+        ]
+      }
+    },
+    "minecraft:cracked_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_nether_bricks"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_brick_fence": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_fence"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_brick_wall"
+          }
+        ]
+      }
+    },
+    "minecraft:red_nether_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_nether_bricks"
+          }
+        ]
+      }
+    },
+    "minecraft:red_nether_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_nether_brick_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:red_nether_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_nether_brick_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:red_nether_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_nether_brick_wall"
+          }
+        ]
+      }
+    },
+    "minecraft:basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:basalt"
+          }
+        ]
+      }
+    },
+    "minecraft:smooth_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_basalt"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_basalt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_basalt"
+          }
+        ]
+      }
+    },
+    "minecraft:blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone"
+          }
+        ]
+      }
+    },
+    "minecraft:gilded_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gilded_blackstone"
+          }
+        ]
+      }
+    },
+    "minecraft:blackstone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:blackstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:blackstone_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:blackstone_wall"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_wall"
+          }
+        ]
+      }
+    },
+    "minecraft:chiseled_polished_blackstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_polished_blackstone"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_pressure_plate"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_button": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_button"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_bricks"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_brick_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_brick_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_brick_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_brick_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:polished_blackstone_brick_wall": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:polished_blackstone_brick_wall"
+          }
+        ]
+      }
+    },
+    "minecraft:cracked_polished_blackstone_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cracked_polished_blackstone_bricks"
+          }
+        ]
+      }
+    },
+    "minecraft:quartz_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_block"
+          }
+        ]
+      }
+    },
+    "minecraft:quartz_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:quartz_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:quartz_bricks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_bricks"
+          }
+        ]
+      }
+    },
+    "minecraft:chiseled_quartz_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_quartz_block"
+          }
+        ]
+      }
+    },
+    "minecraft:quartz_pillar": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:quartz_pillar"
+          }
+        ]
+      }
+    },
+    "minecraft:smooth_quartz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_quartz"
+          }
+        ]
+      }
+    },
+    "minecraft:smooth_quartz_stairs": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_quartz_stairs"
+          }
+        ]
+      }
+    },
+    "minecraft:smooth_quartz_slab": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smooth_quartz_slab"
+          }
+        ]
+      }
+    },
+    "minecraft:coal_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:coal_block"
+          }
+        ]
+      }
+    },
+    "minecraft:iron_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_block"
+          }
+        ]
+      }
+    },
+    "minecraft:diamond_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:diamond_block"
+          }
+        ]
+      }
+    },
+    "minecraft:gold_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gold_block"
+          }
+        ]
+      }
+    },
+    "minecraft:netherite_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_block"
+          }
+        ]
+      }
+    },
+    "minecraft:iron_bars": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_bars"
+          }
+        ]
+      }
+    },
+    "minecraft:chain": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_chain"
+          }
+        ]
+      }
+    },
+    "minecraft:iron_door": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_door"
+          }
+        ]
+      }
+    },
+    "minecraft:iron_trapdoor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:iron_trapdoor"
+          }
+        ]
+      }
+    },
+    "minecraft:heavy_weighted_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:heavy_weighted_pressure_plate"
+          }
+        ]
+      }
+    },
+    "minecraft:light_weighted_pressure_plate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_weighted_pressure_plate"
+          }
+        ]
+      }
+    },
+    "minecraft:white_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_wool"
+          }
+        ]
+      }
+    },
+    "minecraft:light_gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_wool"
+          }
+        ]
+      }
+    },
+    "minecraft:gray_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_wool"
+          }
+        ]
+      }
+    },
+    "minecraft:black_wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_wool"
+          }
+        ]
+      }
+    },
+    "minecraft:white_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_bed"
+          }
+        ]
+      }
+    },
+    "minecraft:light_gray_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_bed"
+          }
+        ]
+      }
+    },
+    "minecraft:gray_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_bed"
+          }
+        ]
+      }
+    },
+    "minecraft:black_bed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_bed"
+          }
+        ]
+      }
+    },
+    "minecraft:white_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_banner"
+          }
+        ]
+      }
+    },
+    "minecraft:light_gray_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_banner"
+          }
+        ]
+      }
+    },
+    "minecraft:gray_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_banner"
+          }
+        ]
+      }
+    },
+    "minecraft:black_banner": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_banner"
+          }
+        ]
+      }
+    },
+    "minecraft:white_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:white_carpet"
+          }
+        ]
+      }
+    },
+    "minecraft:light_gray_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:light_gray_carpet"
+          }
+        ]
+      }
+    },
+    "minecraft:gray_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gray_carpet"
+          }
+        ]
+      }
+    },
+    "minecraft:black_carpet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:black_carpet"
+          }
+        ]
+      }
+    },
+    "minecraft:gravel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:gravel"
+          }
+        ]
+      }
+    },
+    "minecraft:magma_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:magma_block"
+          }
+        ]
+      }
+    },
+    "minecraft:obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:obsidian"
+          }
+        ]
+      }
+    },
+    "minecraft:crying_obsidian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crying_obsidian"
+          }
+        ]
+      }
+    },
+    "minecraft:netherrack": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherrack"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_gold_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_gold_ore"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_quartz_ore": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_quartz_ore"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_nylium"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_nylium": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_nylium"
+          }
+        ]
+      }
+    },
+    "minecraft:soul_sand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_sand"
+          }
+        ]
+      }
+    },
+    "minecraft:soul_soil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_soil"
+          }
+        ]
+      }
+    },
+    "minecraft:glowstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:glowstone"
+          }
+        ]
+      }
+    },
+    "minecraft:ancient_debris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ancient_debris"
+          }
+        ]
+      }
+    },
+    "minecraft:bone_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bone_block"
+          }
+        ]
+      }
+    },
+    "minecraft:red_mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_mushroom_block"
+          }
+        ]
+      }
+    },
+    "minecraft:brown_mushroom_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_mushroom_block"
+          }
+        ]
+      }
+    },
+    "minecraft:mushroom_stem": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:mushroom_stem"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_wart_block"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_wart_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_wart_block"
+          }
+        ]
+      }
+    },
+    "minecraft:shroomlight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:shroomlight"
+          }
+        ]
+      }
+    },
+    "minecraft:brown_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brown_mushroom"
+          }
+        ]
+      }
+    },
+    "minecraft:red_mushroom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:red_mushroom"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_fungus"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_fungus": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_fungus"
+          }
+        ]
+      }
+    },
+    "minecraft:crimson_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crimson_roots"
+          }
+        ]
+      }
+    },
+    "minecraft:warped_roots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:warped_roots"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_sprouts": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_sprouts"
+          }
+        ]
+      }
+    },
+    "minecraft:weeping_vines": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:weeping_vines"
+          }
+        ]
+      }
+    },
+    "minecraft:twisting_vines": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:twisting_vines"
+          }
+        ]
+      }
+    },
+    "minecraft:dried_ghast": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:dried_ghast"
+          }
+        ]
+      }
+    },
+    "minecraft:nether_wart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:nether_wart"
+          }
+        ]
+      }
+    },
+    "minecraft:wither_rose": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_rose"
+          }
+        ]
+      }
+    },
+    "minecraft:torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:torch"
+          }
+        ]
+      }
+    },
+    "minecraft:soul_torch": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_torch"
+          }
+        ]
+      }
+    },
+    "minecraft:lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lantern"
+          }
+        ]
+      }
+    },
+    "minecraft:soul_lantern": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_lantern"
+          }
+        ]
+      }
+    },
+    "minecraft:campfire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:campfire"
+          }
+        ]
+      }
+    },
+    "minecraft:soul_campfire": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:soul_campfire"
+          }
+        ]
+      }
+    },
+    "minecraft:crafting_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:crafting_table"
+          }
+        ]
+      }
+    },
+    "minecraft:fletching_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:fletching_table"
+          }
+        ]
+      }
+    },
+    "minecraft:smithing_table": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smithing_table"
+          }
+        ]
+      }
+    },
+    "minecraft:loom": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:loom"
+          }
+        ]
+      }
+    },
+    "minecraft:furnace": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:furnace"
+          }
+        ]
+      }
+    },
+    "minecraft:smoker": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:smoker"
+          }
+        ]
+      }
+    },
+    "minecraft:anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:anvil"
+          }
+        ]
+      }
+    },
+    "minecraft:chipped_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chipped_anvil"
+          }
+        ]
+      }
+    },
+    "minecraft:damaged_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:damaged_anvil"
+          }
+        ]
+      }
+    },
+    "minecraft:composter": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:composter"
+          }
+        ]
+      }
+    },
+    "minecraft:jukebox": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:jukebox"
+          }
+        ]
+      }
+    },
+    "minecraft:brewing_stand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:brewing_stand"
+          }
+        ]
+      }
+    },
+    "minecraft:cauldron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:cauldron"
+          }
+        ]
+      }
+    },
+    "minecraft:bell": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:bell"
+          }
+        ]
+      }
+    },
+    "minecraft:lodestone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:lodestone"
+          }
+        ]
+      }
+    },
+    "minecraft:ladder": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ladder"
+          }
+        ]
+      }
+    },
+    "minecraft:item_frame": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:item_frame"
+          }
+        ]
+      }
+    },
+    "minecraft:painting": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:painting"
+          }
+        ]
+      }
+    },
+    "minecraft:chiseled_bookshelf": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chiseled_bookshelf"
+          }
+        ]
+      }
+    },
+    "minecraft:chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:chest"
+          }
+        ]
+      }
+    },
+    "minecraft:barrel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:barrel"
+          }
+        ]
+      }
+    },
+    "minecraft:ender_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_chest"
+          }
+        ]
+      }
+    },
+    "minecraft:respawn_anchor": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:respawn_anchor"
+          }
+        ]
+      }
+    },
+    "minecraft:wither_skeleton_skull": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:wither_skeleton_skull"
+          }
+        ]
+      }
+    },
+    "minecraft:tripwire_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:tripwire_hook"
+          }
+        ]
+      }
+    },
+    "minecraft:string": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:string"
+          }
+        ]
+      }
+    },
+    "minecraft:hopper": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:hopper"
+          }
+        ]
+      }
+    },
+    "minecraft:trapped_chest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:trapped_chest"
+          }
+        ]
+      }
+    },
+    "minecraft:rail": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:rail"
+          }
+        ]
+      }
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Obtain every possible block (excluding copper items)"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:bell"
+    },
+    "title": {
+      "text": "Final Formula"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:crimson_stem"
+    ],
+    [
+      "minecraft:crimson_hyphae"
+    ],
+    [
+      "minecraft:stripped_crimson_stem"
+    ],
+    [
+      "minecraft:stripped_crimson_hyphae"
+    ],
+    [
+      "minecraft:crimson_planks"
+    ],
+    [
+      "minecraft:crimson_stairs"
+    ],
+    [
+      "minecraft:crimson_slab"
+    ],
+    [
+      "minecraft:crimson_fence"
+    ],
+    [
+      "minecraft:crimson_fence_gate"
+    ],
+    [
+      "minecraft:crimson_door"
+    ],
+    [
+      "minecraft:crimson_trapdoor"
+    ],
+    [
+      "minecraft:crimson_pressure_plate"
+    ],
+    [
+      "minecraft:crimson_button"
+    ],
+    [
+      "minecraft:crimson_sign"
+    ],
+    [
+      "minecraft:crimson_hanging_sign"
+    ],
+    [
+      "minecraft:crimson_shelf"
+    ],
+    [
+      "minecraft:warped_stem"
+    ],
+    [
+      "minecraft:warped_hyphae"
+    ],
+    [
+      "minecraft:stripped_warped_stem"
+    ],
+    [
+      "minecraft:stripped_warped_hyphae"
+    ],
+    [
+      "minecraft:warped_planks"
+    ],
+    [
+      "minecraft:warped_stairs"
+    ],
+    [
+      "minecraft:warped_slab"
+    ],
+    [
+      "minecraft:warped_fence"
+    ],
+    [
+      "minecraft:warped_fence_gate"
+    ],
+    [
+      "minecraft:warped_door"
+    ],
+    [
+      "minecraft:warped_trapdoor"
+    ],
+    [
+      "minecraft:warped_pressure_plate"
+    ],
+    [
+      "minecraft:warped_button"
+    ],
+    [
+      "minecraft:warped_sign"
+    ],
+    [
+      "minecraft:warped_hanging_sign"
+    ],
+    [
+      "minecraft:warped_shelf"
+    ],
+    [
+      "minecraft:nether_bricks"
+    ],
+    [
+      "minecraft:cracked_nether_bricks"
+    ],
+    [
+      "minecraft:nether_brick_stairs"
+    ],
+    [
+      "minecraft:nether_brick_slab"
+    ],
+    [
+      "minecraft:nether_brick_fence"
+    ],
+    [
+      "minecraft:nether_brick_wall"
+    ],
+    [
+      "minecraft:red_nether_bricks"
+    ],
+    [
+      "minecraft:red_nether_brick_stairs"
+    ],
+    [
+      "minecraft:red_nether_brick_slab"
+    ],
+    [
+      "minecraft:red_nether_brick_wall"
+    ],
+    [
+      "minecraft:basalt"
+    ],
+    [
+      "minecraft:smooth_basalt"
+    ],
+    [
+      "minecraft:polished_basalt"
+    ],
+    [
+      "minecraft:blackstone"
+    ],
+    [
+      "minecraft:gilded_blackstone"
+    ],
+    [
+      "minecraft:blackstone_stairs"
+    ],
+    [
+      "minecraft:blackstone_slab"
+    ],
+    [
+      "minecraft:blackstone_wall"
+    ],
+    [
+      "minecraft:polished_blackstone"
+    ],
+    [
+      "minecraft:polished_blackstone_stairs"
+    ],
+    [
+      "minecraft:polished_blackstone_slab"
+    ],
+    [
+      "minecraft:polished_blackstone_wall"
+    ],
+    [
+      "minecraft:chiseled_polished_blackstone"
+    ],
+    [
+      "minecraft:polished_blackstone_pressure_plate"
+    ],
+    [
+      "minecraft:polished_blackstone_button"
+    ],
+    [
+      "minecraft:polished_blackstone_bricks"
+    ],
+    [
+      "minecraft:polished_blackstone_brick_stairs"
+    ],
+    [
+      "minecraft:polished_blackstone_brick_slab"
+    ],
+    [
+      "minecraft:polished_blackstone_brick_wall"
+    ],
+    [
+      "minecraft:cracked_polished_blackstone_bricks"
+    ],
+    [
+      "minecraft:quartz_block"
+    ],
+    [
+      "minecraft:quartz_stairs"
+    ],
+    [
+      "minecraft:quartz_slab"
+    ],
+    [
+      "minecraft:quartz_bricks"
+    ],
+    [
+      "minecraft:chiseled_quartz_block"
+    ],
+    [
+      "minecraft:quartz_pillar"
+    ],
+    [
+      "minecraft:smooth_quartz"
+    ],
+    [
+      "minecraft:smooth_quartz_stairs"
+    ],
+    [
+      "minecraft:smooth_quartz_slab"
+    ],
+    [
+      "minecraft:coal_block"
+    ],
+    [
+      "minecraft:iron_block"
+    ],
+    [
+      "minecraft:diamond_block"
+    ],
+    [
+      "minecraft:gold_block"
+    ],
+    [
+      "minecraft:netherite_block"
+    ],
+    [
+      "minecraft:iron_bars"
+    ],
+    [
+      "minecraft:chain"
+    ],
+    [
+      "minecraft:iron_door"
+    ],
+    [
+      "minecraft:iron_trapdoor"
+    ],
+    [
+      "minecraft:heavy_weighted_pressure_plate"
+    ],
+    [
+      "minecraft:light_weighted_pressure_plate"
+    ],
+    [
+      "minecraft:white_wool"
+    ],
+    [
+      "minecraft:light_gray_wool"
+    ],
+    [
+      "minecraft:gray_wool"
+    ],
+    [
+      "minecraft:black_wool"
+    ],
+    [
+      "minecraft:white_bed"
+    ],
+    [
+      "minecraft:light_gray_bed"
+    ],
+    [
+      "minecraft:gray_bed"
+    ],
+    [
+      "minecraft:black_bed"
+    ],
+    [
+      "minecraft:white_banner"
+    ],
+    [
+      "minecraft:light_gray_banner"
+    ],
+    [
+      "minecraft:gray_banner"
+    ],
+    [
+      "minecraft:black_banner"
+    ],
+    [
+      "minecraft:white_carpet"
+    ],
+    [
+      "minecraft:light_gray_carpet"
+    ],
+    [
+      "minecraft:gray_carpet"
+    ],
+    [
+      "minecraft:black_carpet"
+    ],
+    [
+      "minecraft:gravel"
+    ],
+    [
+      "minecraft:magma_block"
+    ],
+    [
+      "minecraft:obsidian"
+    ],
+    [
+      "minecraft:crying_obsidian"
+    ],
+    [
+      "minecraft:netherrack"
+    ],
+    [
+      "minecraft:nether_gold_ore"
+    ],
+    [
+      "minecraft:nether_quartz_ore"
+    ],
+    [
+      "minecraft:crimson_nylium"
+    ],
+    [
+      "minecraft:warped_nylium"
+    ],
+    [
+      "minecraft:soul_sand"
+    ],
+    [
+      "minecraft:soul_soil"
+    ],
+    [
+      "minecraft:glowstone"
+    ],
+    [
+      "minecraft:ancient_debris"
+    ],
+    [
+      "minecraft:bone_block"
+    ],
+    [
+      "minecraft:red_mushroom_block"
+    ],
+    [
+      "minecraft:brown_mushroom_block"
+    ],
+    [
+      "minecraft:mushroom_stem"
+    ],
+    [
+      "minecraft:nether_wart_block"
+    ],
+    [
+      "minecraft:warped_wart_block"
+    ],
+    [
+      "minecraft:shroomlight"
+    ],
+    [
+      "minecraft:brown_mushroom"
+    ],
+    [
+      "minecraft:red_mushroom"
+    ],
+    [
+      "minecraft:crimson_fungus"
+    ],
+    [
+      "minecraft:warped_fungus"
+    ],
+    [
+      "minecraft:crimson_roots"
+    ],
+    [
+      "minecraft:warped_roots"
+    ],
+    [
+      "minecraft:nether_sprouts"
+    ],
+    [
+      "minecraft:weeping_vines"
+    ],
+    [
+      "minecraft:twisting_vines"
+    ],
+    [
+      "minecraft:dried_ghast"
+    ],
+    [
+      "minecraft:nether_wart"
+    ],
+    [
+      "minecraft:wither_rose"
+    ],
+    [
+      "minecraft:torch"
+    ],
+    [
+      "minecraft:soul_torch"
+    ],
+    [
+      "minecraft:lantern"
+    ],
+    [
+      "minecraft:soul_lantern"
+    ],
+    [
+      "minecraft:campfire"
+    ],
+    [
+      "minecraft:soul_campfire"
+    ],
+    [
+      "minecraft:crafting_table"
+    ],
+    [
+      "minecraft:fletching_table"
+    ],
+    [
+      "minecraft:smithing_table"
+    ],
+    [
+      "minecraft:loom"
+    ],
+    [
+      "minecraft:furnace"
+    ],
+    [
+      "minecraft:smoker"
+    ],
+    [
+      "minecraft:anvil"
+    ],
+    [
+      "minecraft:chipped_anvil"
+    ],
+    [
+      "minecraft:damaged_anvil"
+    ],
+    [
+      "minecraft:composter"
+    ],
+    [
+      "minecraft:jukebox"
+    ],
+    [
+      "minecraft:brewing_stand"
+    ],
+    [
+      "minecraft:cauldron"
+    ],
+    [
+      "minecraft:bell"
+    ],
+    [
+      "minecraft:lodestone"
+    ],
+    [
+      "minecraft:ladder"
+    ],
+    [
+      "minecraft:item_frame"
+    ],
+    [
+      "minecraft:painting"
+    ],
+    [
+      "minecraft:chiseled_bookshelf"
+    ],
+    [
+      "minecraft:chest"
+    ],
+    [
+      "minecraft:barrel"
+    ],
+    [
+      "minecraft:ender_chest"
+    ],
+    [
+      "minecraft:respawn_anchor"
+    ],
+    [
+      "minecraft:wither_skeleton_skull"
+    ],
+    [
+      "minecraft:tripwire_hook"
+    ],
+    [
+      "minecraft:string"
+    ],
+    [
+      "minecraft:hopper"
+    ],
+    [
+      "minecraft:trapped_chest"
+    ],
+    [
+      "minecraft:rail"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  }
+}

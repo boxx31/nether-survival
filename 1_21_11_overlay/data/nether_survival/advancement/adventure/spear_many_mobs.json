@@ -1,0 +1,29 @@
+{
+  "parent": "nether_survival:adventure/kill_monster",
+  "criteria": {
+    "spear_many_mobs": {
+      "conditions": {
+        "count": 5
+      },
+      "trigger": "minecraft:spear_mobs"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Hit five mobs in the same Charge attack using the Spear."
+    },
+    "frame": "goal",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:iron_spear"
+    },
+    "title": {
+      "text": "Mob Kabob"
+    }
+  },
+  "requirements": [
+    [
+      "spear_many_mobs"
+    ]
+  ]
+}

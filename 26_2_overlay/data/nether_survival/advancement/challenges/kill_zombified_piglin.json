@@ -1,0 +1,57 @@
+{
+  "parent": "nether_survival:challenges/trophy",
+  "criteria": {
+    "kill_neutral_zombified_piglin": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:zombified_piglin"
+            }
+          },
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "targeted_entity": {
+                  "minecraft:entity_type": "minecraft:player"
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "taken": {
+            "min": 20
+          }
+        }
+      },
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Kill a Zombified Piglin in one shot"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:golden_spear"
+    },
+    "title": {
+      "text": "Never Saw it Coming"
+    }
+  },
+  "requirements": [
+    [
+      "kill_neutral_zombified_piglin"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

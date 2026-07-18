@@ -1,0 +1,38 @@
+{
+    "pack": {
+        "description": {
+            "text": "Advancement datapack by fluxeter"
+        },
+        "pack_format": 81,
+        "supported_formats": [80, 107],
+        "min_format": 80,
+        "max_format": 107
+    },
+    "overlays": {
+        "entries": [
+            {
+                "directory": "1_21_10_overlay",
+                "min_format": 88,
+                "max_format": 107
+            },
+            {
+                "directory": "1_21_11_overlay",
+                "min_format": 94,
+                "max_format": 107
+            },
+            {
+                "directory": "26_2_overlay",
+                "min_format": 107,
+                "max_format": 107
+            }
+        ]
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "advancement/(story|nether|adventure|husbandry)/.*"
+            }
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+  "parent": "nether_survival:adventure/root",
+  "criteria": {
+    "barter": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "minecraft:entity_type": "minecraft:piglin",
+              "flags": {
+                "is_baby": false
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:thrown_item_picked_up_by_player"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Barter with Piglins using gold"
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:gold_ingot"
+    },
+    "title": {
+      "text": "Supply Drop"
+    }
+  },
+  "requirements": [
+    [
+      "barter"
+    ]
+  ]
+}

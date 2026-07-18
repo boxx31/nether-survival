@@ -1,0 +1,471 @@
+{
+  "parent": "nether_survival:challenges/root",
+  "criteria": {
+    "all_blackstone": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_blackstone": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "all_blocks": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_blocks": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "all_bricks": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_bricks": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "all_effects": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_effects": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "all_quartz": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_quartz": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "all_recipes": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_recipes": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "all_dye": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/all_dye": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "arbalistic": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/arbalistic": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "clip_bedrock": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/clip_bedrock": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "compost_everything": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/compost_everything": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "eat_everything": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/eat_everything": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "free_fall": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/free_fall": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "jockey_caravan": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/jockey_caravan": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "jockey_tower": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/jockey_tower": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "kill_all_mobs": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/kill_all_mobs": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "kill_in_lava": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/kill_in_lava": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "kill_zombified_piglin": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/kill_zombified_piglin": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "loot_all_bastions": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/loot_all_bastions": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "netherite_armor": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/netherite_armor": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "netherite_hoe": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/netherite_hoe": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "remove_bastion": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/remove_bastion": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "ride_ghast": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/ride_ghast": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "ride_vines": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/ride_vines": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "silk_touch": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/silk_touch": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "sniper_duel": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/sniper_duel": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "snout_banner": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/snout_banner": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "splash_blazes": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/splash_blazes": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "teleport_biomes": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/teleport_biomes": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "horse_armor": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/horse_armor": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    },
+    "water_cauldron": {
+      "conditions": {
+        "player": {
+          "minecraft:type_specific/player": {
+            "advancements": {
+              "nether_survival:challenges/water_cauldron": true
+            }
+          }
+        }
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "icon": {
+      "id": "minecraft:beacon"
+    },
+    "title": "Challenge Trophy",
+    "description": "Good luck!",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "requirements": [
+    [
+      "all_blackstone"
+    ],
+    [
+      "all_blocks"
+    ],
+    [
+      "all_bricks"
+    ],
+    [
+      "all_effects"
+    ],
+    [
+      "all_quartz"
+    ],
+    [
+      "all_recipes"
+    ],
+    [
+      "all_dye"
+    ],
+    [
+      "arbalistic"
+    ],
+    [
+      "clip_bedrock"
+    ],
+    [
+      "compost_everything"
+    ],
+    [
+      "eat_everything"
+    ],
+    [
+      "free_fall"
+    ],
+    [
+      "jockey_caravan"
+    ],
+    [
+      "jockey_tower"
+    ],
+    [
+      "kill_all_mobs"
+    ],
+    [
+      "kill_in_lava"
+    ],
+    [
+      "kill_zombified_piglin"
+    ],
+    [
+      "loot_all_bastions"
+    ],
+    [
+      "netherite_armor"
+    ],
+    [
+      "netherite_hoe"
+    ],
+    [
+      "remove_bastion"
+    ],
+    [
+      "ride_ghast"
+    ],
+    [
+      "ride_vines"
+    ],
+    [
+      "silk_touch"
+    ],
+    [
+      "sniper_duel"
+    ],
+    [
+      "snout_banner"
+    ],
+    [
+      "splash_blazes"
+    ],
+    [
+      "teleport_biomes"
+    ],
+    [
+      "horse_armor"
+    ],
+    [
+      "water_cauldron"
+    ]
+  ],
+  "rewards": {
+    "experience": 20000
+  }
+}

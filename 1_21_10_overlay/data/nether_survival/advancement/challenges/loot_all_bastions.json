@@ -1,0 +1,59 @@
+{
+  "parent": "nether_survival:challenges/horse_armor",
+  "criteria": {
+    "minecraft:chests/bastion_bridge": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_bridge"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "minecraft:chests/bastion_hoglin_stable": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_hoglin_stable"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "minecraft:chests/bastion_other": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_other"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    },
+    "minecraft:chests/bastion_treasure": {
+      "conditions": {
+        "loot_table": "minecraft:chests/bastion_treasure"
+      },
+      "trigger": "minecraft:player_generates_container_loot"
+    }
+  },
+  "display": {
+    "description": {
+      "text": "Loot every type of bastion chest"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:chest"
+    },
+    "title": {
+      "text": "Prospector At Large"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:chests/bastion_bridge"
+    ],
+    [
+      "minecraft:chests/bastion_hoglin_stable"
+    ],
+    [
+      "minecraft:chests/bastion_other"
+    ],
+    [
+      "minecraft:chests/bastion_treasure"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

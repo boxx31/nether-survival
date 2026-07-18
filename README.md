@@ -19,8 +19,8 @@ Recommended mod for tracking progress: [Advancements Reloaded](https://modrinth.
 
 Required blocks/items/mobs for specific advancements is found in advancement_info.txt
 
-Enable cheats and use `/tag @s remove nether_restricted` to access the Overworld.
-### Versions
+Use `/tag @s remove nether_restricted` to access the Overworld.
+### Versions supported
 1.21.6+, up to 26.2
 ### Links
 - [Modrinth](https://modrinth.com/datapack/nether-challenges)
